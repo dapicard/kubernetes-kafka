@@ -1,0 +1,5 @@
+# With kubectl -n kafka port-forward kafka-0 9094
+bases:
+- ../dev-small
+patchesStrategicMerge:
+- zookeeper.yaml
