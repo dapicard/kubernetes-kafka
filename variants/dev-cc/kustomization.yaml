@@ -3,3 +3,4 @@ bases:
 - ../dev-small
 patchesStrategicMerge:
 - zookeeper.yaml
+- kafka.yaml
